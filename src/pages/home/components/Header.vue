@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="header">
+      
       <div class="header-left"><span class="iconfont back-icon">&#xe624;</span></div>
       <div class="header-input"><span class="iconfont">&#xe632;</span>输入城市/景点/游玩</div>
       <div class="header-right">城市<span class="iconfont arrow-icon">&#xe64a;</span></div>
