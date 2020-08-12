@@ -1,6 +1,6 @@
 <template>
-  <div class="icons">
-    <swiper> 
+  <div class="icons ">
+    <swiper :options="swiperOptions"> 
       <swiper-slide v-for="(page,index) of pages" :key="index">
         <div class="icon" 
             v-for="item of page"
@@ -11,61 +11,64 @@
             <p class="icon-desc">{{item.desc}}</p>
         </div>
       </swiper-slide>
+       
     </swiper>
   </div>
 </template>
 
 <script>
+
   export default{
     name:'HomeIcons',
     data () { /* data这里必须是函数，特殊写法，data后一定加空格 */
       return {
+        swiperOptions: {autoplay:false },
         iconList:[{
-          id:'01',
+          id:'0001',
           imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
           desc:'酒店',
         },
           {
-          id:'02',
+          id:'0002',
           imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/flight.png',
           desc:'机票',
         },
           {
-          id:'03',
+          id:'0003',
           imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/package.png',
           desc:'景点',
         },
         {
-          id:'04',
+          id:'0004',
           imgUrl:'//s.qunarzz.com/homenode/images/touchheader/train.png',
           desc:'火车票',
         },
         {
-          id:'05',
+          id:'0005',
           imgUrl:'//s.qunarzz.com/homenode/images/touchheader/piao.png',
           desc:'门票',
         },
         {
-          id:'06',
+          id:'0006',
           imgUrl:'//s.qunarzz.com/homenode/images/touchheader/train.png',
           desc:'火车票',
         },
         {
-          id:'07',
+          id:'0007',
           imgUrl:'//s.qunarzz.com/homenode/images/touchheader/piao.png',
           desc:'门票',
         },
         {
-          id:'08',
+          id:'0008',
           imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/flight.png',
           desc:'机票',
         },
         {
-          id:'09',
+          id:'0009',
           imgUrl:'//s.qunarzz.com/homenode/images/touchheader/piao.png',
           desc:'酒店',
         },{
-          id:'10',
+          id:'0010',
           imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/flight.png',
           desc:'机票',
         }]
@@ -85,6 +88,7 @@
           }
         }
   }
+  
 </script>
 
 <style lang="stylus" scoped>
@@ -95,6 +99,8 @@
     height :0
     padding-bottom:50%
     .icon
+      margin-top:.1rem
+    .icon
       position: relative
       float:left
       overflow: hidden
@@ -102,6 +108,7 @@
       height :0
       padding-bottom:25%
     .icon-img
+    
       position :absolute
       top :0
       right:0

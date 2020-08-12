@@ -15,7 +15,9 @@ export default {
     return{
       swiperOptions:{
         pagination:'.swiper-pagination',
-        loop:true
+        loop:true,
+        autoplay:3000
+
       },
        swiperList:[{
         id:'0001',
@@ -23,7 +25,8 @@ export default {
       },{
         id:'0002',
         imgUrl:'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20208/91d516ade2556cb2f64aae392e6b35ce.jpg_890x330_ba143e24.jpg'
-      }]
+      }
+      ]
 
     } 
     
@@ -33,8 +36,8 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.wrapper>>>.swiper-pagination-bullet-active
-  background #fff
+.wrapper >>> .swiper-pagination-bullet-active
+  background :#fff
  .wrapper
   overflow:hidden
   width:100%
