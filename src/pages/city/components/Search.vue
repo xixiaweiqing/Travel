@@ -15,6 +15,7 @@ export default {
 @import"~styles/varibles.styl"
   .search
     padding: .1rem
+    padding-top: 0.15rem
     height :.72rem
     background :$bgColor
     .search-input

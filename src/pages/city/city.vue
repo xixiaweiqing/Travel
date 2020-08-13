@@ -2,8 +2,8 @@
   <div>
     <city-header></city-header>
     <city-search></city-search>
-    <city-list :cities="cities" :hotCities="hotCities"></city-list>
-    <city-alphabet :cities="cities"></city-alphabet>
+    <city-list :letter="letter" :cities="cities" :hotCities="hotCities"></city-list>
+    <city-alphabet :cities="cities" @change="handelLatterChange"></city-alphabet>
   </div>
 </template>
 
@@ -24,7 +24,8 @@ export default {
   data () {
     return{
       cities:{},
-      hotCities:[]
+      hotCities:[],
+      letter:''
     }
     
   },
@@ -40,6 +41,9 @@ export default {
         this.hotCities=data.hotCities
         this.cities=data.cities
       }
+    },
+    handelLatterChange(letter){
+      this.letter=letter;
     }
 
   },
