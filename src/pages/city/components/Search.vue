@@ -5,7 +5,11 @@
     </div>
     <div class="search-content" ref="search" v-show="keyword"> 
       <ul>
-        <li class="search-item border-bottom" v-for="item of list" :key="item.id">{{item.name}}</li>
+        <li 
+        class="search-item border-bottom"
+        v-for="item of list" 
+        :key="item.id"
+        @click="handleCityClilk(item.name)">{{item.name}}</li>
         <li class="search-item border-bottom" v-show="listLengthNull">'没有相关匹配数据'</li>
       </ul>
     </div>
@@ -26,6 +30,12 @@ export default {
       list:[]
     }
     
+  },
+  methods:{
+    handleCityClilk(city){
+      this.$store.commit('changeCity',city)
+      this.$router.push('/')
+    }
   },
   computed:{
     listLengthNull(){

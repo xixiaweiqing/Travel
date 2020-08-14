@@ -5,7 +5,8 @@
       <div class="header-left"><span class="iconfont back-icon">&#xe624;</span></div>
       <div class="header-input"><span class="iconfont">&#xe632;</span>输入城市/景点/游玩</div>
       <router-link to="/city">
-      <div class="header-right">{{this.city}}<span class="iconfont arrow-icon">&#xe64a;</span></div>
+      <div class="header-right">{{this.$store.state.city}}
+        <span class="iconfont arrow-icon">&#xe64a;</span></div>
       </router-link>
     </div>
   </div>
@@ -43,7 +44,8 @@ export default {
     border-radius:.1rem
     color:#ccc
  .header-right
-    width:1.24rem
+    min-width:1.04rem
+    padding :0.1rem
     float:right
     text-align:center
     color:#fff

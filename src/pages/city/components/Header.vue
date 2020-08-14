@@ -35,6 +35,7 @@ export default {
     top:0
     left :0
     font-weight :bold
-
+  
+   
 
 </style>
