@@ -46,6 +46,7 @@ export default{
     padding-bottom:55%
     .banner-img
       width :100%
+      z-index :0
     .banner-info
       display :flex
       position:absolute
