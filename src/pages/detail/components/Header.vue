@@ -13,7 +13,7 @@
       <router-link to="/">
        <div class="iconfont header-fixed-back">&#xe624;</div>
       </router-link>
-      <div class="fontT">景点详情</div>
+      <div class="fontTitle">景点详情</div>
     </div>
   </div>
 </template>
@@ -31,6 +31,7 @@ export default {
   },
   methods: {
     handleScroll () {
+      console.log(scroll)
       const top = document.documentElement.scrollTop
       if ( top>60) {
         let opacity=top/140
@@ -44,6 +45,9 @@ export default {
   },
   activated () {
     window.addEventListener('scroll',this.handleScroll)
+  },
+  deactivated (){
+    window.removeEventListener('scroll',this.handleScroll)
   }
 }
 </script>
@@ -84,7 +88,7 @@ export default {
       top:0
       left:0
       font-weight:bold
-    .fontT
+    .fontTitle
       z-index:2
       font-size :.32rem
       position:absolute
