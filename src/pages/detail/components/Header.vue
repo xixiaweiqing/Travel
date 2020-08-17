@@ -31,7 +31,6 @@ export default {
   },
   methods: {
     handleScroll () {
-      console.log(scroll)
       const top = document.documentElement.scrollTop
       if ( top>60) {
         let opacity=top/140
@@ -59,15 +58,16 @@ export default {
     position :absolute
     top:.2rem
     left:.2rem
-    background:rgba(0,0,0,0.6)
+    background:rgba(0,0,0,0.5)
     border-radius :.4rem
-    height :.9rem
-    width: .9rem
-    line-height :.9rem
+    height:.7rem
+    width:.7rem
+    line-height :.7rem
     text-align :center
     .header-abs-icon
       color :#fff
       font-size:.32rem
+      font-weight :bold
   .header-fixed
     z-index:2
     position:fixed
@@ -89,7 +89,6 @@ export default {
       left:0
       font-weight:bold
     .fontTitle
-      z-index:2
       font-size :.32rem
       position:absolute
       left:3rem

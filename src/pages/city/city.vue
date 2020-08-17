@@ -36,7 +36,7 @@ export default {
     },
     getHomeInfoSucc(res){
       res=res.data
-      if(res.ret&&res.data){
+      if(res.ret&&res.data){//ret是mock数据里值为true的确认值，data是所有数据统称
         const data =res.data
         this.hotCities=data.hotCities
         this.cities=data.cities

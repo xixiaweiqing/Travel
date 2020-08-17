@@ -16,7 +16,7 @@ export default {
 
 <style lang="stylus" scoped>
 @import"~styles/varibles.styl"
-  .header-fixed
+  .header
     position :relative
     background :$bgColor
     height :$headerHeight
