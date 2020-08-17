@@ -7,15 +7,18 @@
         <div class="banner-number"><span class="iconfont banner-icon">&#xe60b;</span>39</div>
       </div>
     </div>
+    <fade-animation>
     <common-gallery 
     :imgs="imgs"
      v-show="showGallery"
      @close="handleGalleryClick"> </common-gallery>
+     </fade-animation>
  </div> 
 </template>
 
 <script>
 import CommonGallery from 'common/gallery/Gallery.vue'
+import FadeAnimation from 'common/fade/FadeAnimation.vue'
 export default{
   name:'DetailBanner',
   data (){
@@ -33,7 +36,8 @@ export default{
     }
   },
   components:{
-    CommonGallery
+    CommonGallery,
+    FadeAnimation
     }
 }
 </script>
