@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="item" 
+  <!--   <div class="item" 
     v-for="(item,index) of list" 
     :key="index">
       <div class="item-title border-bottom
@@ -11,7 +11,7 @@
         <div v-for="(children,index) in item" :key="index" class="item-content">{{children.content}}</div>
       </div>
     </div>
-    
+     -->
     
   </div>
 </template>

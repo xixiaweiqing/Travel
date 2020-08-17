@@ -23,13 +23,14 @@ export default {
  @import '~styles/varibles.styl'
  .header
   display:flex
-  line-height:.86rem
+  line-height:.75rem
   background:$bgColor
   color:#fff
   .back-icon
     text-align :center
     font-size :.4rem
     margin-left :.2rem
+    vertical-align :middle
  .header-left
    width:0.64rem
    float:left
