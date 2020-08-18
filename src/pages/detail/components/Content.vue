@@ -65,7 +65,7 @@
          </div>
          <div class="content-right">
            <div class="item-price">{{item.price}}</div>
-           <div class="item-btn">立即预定</div>
+           <div class="item-btn">立即预约</div>
          </div>
          <div class="lineB"></div>
        </div>
