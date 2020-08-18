@@ -1,0 +1,106 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+      "id":"0001",
+      "imgUrl":"https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20207/dc289642046cfdd6543b87794a0f9735.jpg_890x330_9419eeff.jpg"
+    },{
+      "id":"0002",
+      "imgUrl":"https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20208/91d516ade2556cb2f64aae392e6b35ce.jpg_890x330_ba143e24.jpg"
+    }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+        "desc": "景点门票"
+      }, {
+        "id": "0002",
+        "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/flight.png",
+        "desc": "滑雪季"
+      }, {
+        "id": "0003",
+        "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/package.png",
+        "desc": "泡温泉"
+      }, {
+        "id": "0004",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/train.png",
+        "desc": "动植园"
+      }, {
+        "id": "0005",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/piao.png",
+        "desc": "游乐园"
+      }, {
+        "id": "0006",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/train.png",
+        "desc": "必游榜单"
+      }, {
+        "id": "0007",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/piao.png",
+        "desc": "演出"
+      }, {
+        "id": "0008",
+        "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/flight.png",
+        "desc": "城市观光"
+      }, {
+        "id": "0009",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/piao.png",
+        "desc": "一日游"
+      },{
+        "id": "0010",
+        "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/flight.png",
+        "desc": "飞机票"
+      }
+    ],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "https://imgs.qunarzz.com/p/tts8/1808/8f/4c6dc42175b85902.jpg_r_390x260x95_8016ad7d.jpg",
+        "title": "三亚纯玩6日游",
+        "desc": "【跟团游】三亚纯玩6日游|2晚高档海景房+买送千元代金券|蜈支洲一整天+南山+天堂"
+      }, {
+        "id": "0002",
+        "imgUrl": "https://imgs.qunarzz.com/p/tts2/2007/17/837a696919aea402.png_r_390x260x95_ff646122.png",
+        "title": "丽江4晚5日游",
+        "desc": "【跟团游】<中国国旅>【私家团+2人起订】丽江、泸沽湖4晚5日游（双飞、国际五星希尔顿+挂五酒店+高端湖景房、酒吧狂欢+酒水畅饮、自助大餐+温泉净桑、篝火晚会）"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_140x140_ef235b1c.jpg",
+        "title": "天安门广场",
+        "desc": "我爱北京天安门，天安门上太阳升"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_140x140_1c863e5c.jpg",
+        "title": "水立方",
+        "desc": "中国的荣耀，阳光下的晶莹水滴"
+      }, {
+        "id": "0005",
+        "imgUrl": "https://imgs.qunarzz.com/vs_ceph_vs_tts/292cc76a-f2ba-4051-b419-8793fe2943e8.jpg_r_390x260x95_0b26a4e9.jpg",
+        "title": "环西北七日游",
+        "desc": "【跟团游】纯玩探秘可可西里🔥青海湖+茶卡盐湖+敦煌+嘉峪关+张掖7日杭州"
+      }],
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1601/1c/1cdfd6a29fd1813990.img.jpg_710x360_f9eedd89.jpg",
+        "title": "南浔古镇",
+        "desc": "水乡古镇九十九，不如南浔走一走"
+      }, {
+        "id": "0002",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1603/8f/8fff2332dff679ec90.water.jpg_710x360_cc96a62e.jpg",
+        "title": "普陀山风景区",
+        "desc": "普陀山，与山西五台山、四川峨眉山、安徽九华山并称为中国佛教四大名山，是观世音菩萨教化众生的道场"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+        "title": "寻找北京的皇城范儿",
+        "desc": "数百年的宫廷庙宇，至今依旧威严霸气"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/ce/bc89bc2f0e33ea.jpg_r_640x214_3e408453.jpg",
+        "title": "学生最爱的博物馆",
+        "desc": "周末干嘛？北京很多博物馆已经免费开放啦"
+      }, {
+        "id": "0005",
+        "imgUrl": "https://imgs.qunarzz.com/sight/p0/1706/e1/e1dbcc2f0ad04fe0a3.img.jpg_710x360_cc6886ba.jpg",
+        "title": "丽水冒险岛水世界",
+        "desc": "中世纪欧洲维驯龙主题，开启奇幻水上之旅"
+      }]
+  }
+}
